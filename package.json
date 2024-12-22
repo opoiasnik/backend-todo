@@ -1,0 +1,25 @@
+
+{
+  "name": "mini-todo-backend",
+  "version": "1.0.0",
+  "description": "A mini to-do management backend using GraphQL, TypeScript, and Apollo Server.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^15.5.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.0.0",
+    "@types/uuid": "^8.3.3",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
